@@ -660,7 +660,7 @@
 
   async function compartilhar() {
     const btn = document.getElementById('share-btn');
-    const url = window.location.href;
+    const url = 'https://amendesweb-digital-reception.vercel.app/';
     if (navigator.share) {
       try { await navigator.share({ title: 'Amendes Web · Sites Premium', text: 'Confira os serviços da Amendes Web!', url }); } catch(e) {}
     } else {
