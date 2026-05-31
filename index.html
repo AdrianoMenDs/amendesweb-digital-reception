@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
@@ -538,7 +536,7 @@
       </div>
       <div class="hour-row" id="hour-saturday">
         <p class="hour-day">Sábado</p>
-        <p class="hour-time">09h às 17h</p>
+        <p class="hour-time">09h às 13h</p>
       </div>
       <div class="hour-row" id="hour-sunday">
         <p class="hour-day">Domingo</p>
@@ -608,7 +606,7 @@
 
   /* STATUS — Seg a Sáb 09h–17h = online, resto offline
      0=Dom 1=Seg 2=Ter 3=Qua 4=Qui 5=Sex 6=Sáb */
-  const SCHEDULE = { 0:null, 1:[9,17], 2:[9,17], 3:[9,17], 4:[9,17], 5:[9,17], 6:[9,17] };
+  const SCHEDULE = { 0:null, 1:[9,17], 2:[9,17], 3:[9,17], 4:[9,17], 5:[9,17], 6:[9,13] };
   const DAYS = ['Dom','Seg','Ter','Qua','Qui','Sex','Sáb'];
 
   function updateStatus() {
